@@ -12,6 +12,7 @@
 		34C998A41B3A432700E6594E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34C998A31B3A432700E6594E /* Images.xcassets */; };
 		34C998A71B3A432700E6594E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34C998A51B3A432700E6594E /* LaunchScreen.xib */; };
 		34C998B31B3A432700E6594E /* lianxiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C998B21B3A432700E6594E /* lianxiTests.m */; };
+		34C998BE1B3A459C00E6594E /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C998BD1B3A459C00E6594E /* MyView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 		34C998AC1B3A432700E6594E /* lianxiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lianxiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34C998B11B3A432700E6594E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34C998B21B3A432700E6594E /* lianxiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lianxiTests.m; sourceTree = "<group>"; };
+		34C998BC1B3A459C00E6594E /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		34C998BD1B3A459C00E6594E /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,8 @@
 			children = (
 				34C998A01B3A432700E6594E /* AppDelegate.h */,
 				34C998A11B3A432700E6594E /* AppDelegate.m */,
+				34C998BC1B3A459C00E6594E /* MyView.h */,
+				34C998BD1B3A459C00E6594E /* MyView.m */,
 				34C998A31B3A432700E6594E /* Images.xcassets */,
 				34C998A51B3A432700E6594E /* LaunchScreen.xib */,
 				34C9989C1B3A432700E6594E /* Supporting Files */,
@@ -212,6 +217,7 @@
 			files = (
 				34C998A21B3A432700E6594E /* AppDelegate.m in Sources */,
 				34C9989F1B3A432700E6594E /* main.m in Sources */,
+				34C998BE1B3A459C00E6594E /* MyView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
